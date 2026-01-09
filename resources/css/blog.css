@@ -1,0 +1,69 @@
+body {
+    background-color: #3B3131;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    min-height: 100vh;
+}
+.banner {
+    color: #FAF7F7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.nav {
+    color: #FAF7F7;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    color: #FAF7F7;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 36rem;
+    min-width: 36rem;
+}
+
+.content-header {
+    color: #FAF7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 36rem;
+}
+
+.zoom {
+  transition: transform .2s;
+  margin: 0rem 1rem 1rem 1rem;
+  color: #FAF7F7; 
+  }
+
+.zoom:hover {
+  transform: scale(1.5); /* enlarges any element with this class on hover */
+}
+
+.banner img {
+    border-radius: 50%; /*rounds the image into a circle*/
+    height: 5rem;
+}
+
+.content img {
+    height: 250px;
+    width: auto;
+    border-radius: 10%;
+}
+
