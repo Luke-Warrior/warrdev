@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     background-color: #4A3E3E;
     padding: 1rem;
     margin: 1rem 0;
