@@ -3,6 +3,7 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #FAF7F7;
 }
 .main {
     display: flex;
@@ -12,7 +13,6 @@ body {
     min-height: 100vh;
 }
 .banner {
-    color: #FAF7F7;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,17 +27,16 @@ body {
 }
 
 .content {
-    color: #FAF7F7;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     max-width: 36rem;
     min-width: auto;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .content-header {
-    color: #FAF7F7;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,8 +47,8 @@ body {
 
 .zoom {
   transition: transform .2s;
-  margin: 0rem 1rem 1rem 1rem;
-  color: #FAF7F7; 
+  margin: 0rem 1rem 1rem 1rem; 
+  color: #FAF7F7
   }
 
 .zoom:hover {
@@ -67,3 +66,8 @@ body {
     border-radius: 10%;
 }
 
+.date {
+    font-family: "Noto Sans", sans-serif;
+    opacity: 0.3;
+    margin-top: 0;
+}
